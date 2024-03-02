@@ -15,8 +15,8 @@ elasticsearch must contains the same structure of database table
 “permission”.
 * Create apache kafka in local environment and create new topic where
 persist every operation a message with the next dto structure:
-* Id: random Guid
-* Name operation: “modify”, “request” or “get”.
+  * Id: random Guid
+  * Name operation: “modify”, “request” or “get”.
 * (desired)
 * Making use of repository pattern and Unit of Work and CQRS
 pattern(Desired). Bear in mind that is required to stick to a proper
