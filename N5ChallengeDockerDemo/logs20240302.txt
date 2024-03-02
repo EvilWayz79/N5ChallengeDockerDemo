@@ -1,0 +1,1675 @@
+2024-03-02 09:20:55.782 +00:00 [INF] Now listening on: http://[::]:8080
+2024-03-02 09:20:55.898 +00:00 [INF] Now listening on: https://[::]:8081
+2024-03-02 09:20:55.900 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-02 09:20:55.901 +00:00 [INF] Hosting environment: Development
+2024-03-02 09:20:55.901 +00:00 [INF] Content root path: /app
+2024-03-02 09:20:56.471 +00:00 [INF] Request starting HTTP/2 GET https://localhost:64394/N5DockerDemo - null null
+2024-03-02 09:20:56.503 +00:00 [INF] Request finished HTTP/2 GET https://localhost:64394/N5DockerDemo - 404 0 null 32.831ms
+2024-03-02 09:20:56.509 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:64394/N5DockerDemo, Response status code: 404
+2024-03-02 09:21:28.880 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:64394/api/GetPermissions - application/json 26
+2024-03-02 09:21:28.888 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 09:21:28.908 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 09:21:28.913 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo) in 1.7138ms
+2024-03-02 09:21:28.914 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 09:21:28.917 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'N5ChallengeDockerDemo.Interfaces.IPermissionsRepository' while attempting to activate 'N5ChallengeDockerDemo.Controllers.GetPermissionsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method3(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-02 09:21:28.948 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:64394/api/GetPermissions - 500 null text/plain; charset=utf-8 67.7253ms
+2024-03-02 09:23:29.385 +00:00 [INF] Now listening on: http://[::]:8080
+2024-03-02 09:23:29.420 +00:00 [INF] Now listening on: https://[::]:8081
+2024-03-02 09:23:29.422 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-02 09:23:29.423 +00:00 [INF] Hosting environment: Development
+2024-03-02 09:23:29.423 +00:00 [INF] Content root path: /app
+2024-03-02 09:23:29.977 +00:00 [INF] Request starting HTTP/2 GET https://localhost:64394/N5DockerDemo - null null
+2024-03-02 09:23:30.009 +00:00 [INF] Request finished HTTP/2 GET https://localhost:64394/N5DockerDemo - 404 0 null 32.9657ms
+2024-03-02 09:23:30.016 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:64394/N5DockerDemo, Response status code: 404
+2024-03-02 09:23:36.318 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:64394/api/GetPermissions - application/json 26
+2024-03-02 09:23:36.323 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 09:23:36.340 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 09:23:36.345 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo) in 1.3169ms
+2024-03-02 09:23:36.346 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 09:23:36.349 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'N5ChallengeDockerDemo.Interfaces.IPermissionsRepository' while attempting to activate 'N5ChallengeDockerDemo.Controllers.GetPermissionsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method3(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-02 09:23:36.368 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:64394/api/GetPermissions - 500 null text/plain; charset=utf-8 50.9481ms
+2024-03-02 14:51:24.480 +00:00 [INF] Now listening on: http://[::]:8080
+2024-03-02 14:51:24.551 +00:00 [INF] Now listening on: https://[::]:8081
+2024-03-02 14:51:24.553 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-02 14:51:24.554 +00:00 [INF] Hosting environment: Development
+2024-03-02 14:51:24.554 +00:00 [INF] Content root path: /app
+2024-03-02 14:51:26.920 +00:00 [INF] Request starting HTTP/2 GET https://localhost:52504/N5DockerDemo - null null
+2024-03-02 14:51:26.973 +00:00 [INF] Request finished HTTP/2 GET https://localhost:52504/N5DockerDemo - 404 0 null 55.5634ms
+2024-03-02 14:51:26.979 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:52504/N5DockerDemo, Response status code: 404
+2024-03-02 14:52:00.679 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:52504/api/GetPermissions - application/json 26
+2024-03-02 14:52:00.691 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 14:52:00.709 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 14:52:16.436 +00:00 [ERR] DATABASE ERROR
+System.InvalidOperationException: Cannot use table 'dbo.Permission' for entity type 'PermissionType' since it is being used for entity type 'Permission' and potentially other entity types, but there is no linking relationship. Add a foreign key to 'PermissionType' on the primary key properties and pointing to the primary key on another entity type mapped to 'dbo.Permission'.
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.ValidateSharedTableCompatibility(IReadOnlyList`1 mappedTypes, StoreObjectIdentifier& storeObject, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.SqlServer.Infrastructure.Internal.SqlServerModelValidator.ValidateSharedTableCompatibility(IReadOnlyList`1 mappedTypes, StoreObjectIdentifier& storeObject, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.ValidateSharedTableCompatibility(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.SqlServer.Infrastructure.Internal.SqlServerModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_4(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkRelationalServicesBuilder.<>c.<TryAddCoreServices>b__3_3(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.InfrastructureExtensions.GetService(IInfrastructure`1 accessor, Type serviceType)
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.InfrastructureExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.AccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.get_Dependencies()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.Microsoft.EntityFrameworkCore.Storage.IDatabaseFacadeDependenciesAccessor.get_Dependencies()
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.GetFacadeDependencies(DatabaseFacade databaseFacade)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.GetConnectionString(DatabaseFacade databaseFacade)
+   at N5ChallengeDockerDemo.Data.PermissionsRepository.GetPermissions(Int32 employeeId, ILogger`1 _logger, IElasticClient elasticClient) in D:\Users\Ruben\source\repos\N5ChallengeDockerDemo\N5ChallengeDockerDemo\Data\PermissionsRepository.cs:line 135
+2024-03-02 14:52:16.469 +00:00 [INF] Display Permissions List
+2024-03-02 14:52:16.475 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[N5ChallengeDockerDemo.ViewClasses.EmployeePermissionView, N5ChallengeDockerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-02 14:52:16.495 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo) in 15782.6737ms
+2024-03-02 14:52:16.496 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 14:52:16.499 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:52504/api/GetPermissions - 200 null application/json; charset=utf-8 15820.3981ms
+2024-03-02 14:56:00.933 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:52504/api/GetPermissions - application/json 26
+2024-03-02 14:56:00.936 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 14:56:00.937 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 17:33:42.513 +00:00 [INF] Now listening on: http://[::]:8080
+2024-03-02 17:33:42.570 +00:00 [INF] Now listening on: https://[::]:8081
+2024-03-02 17:33:42.572 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-02 17:33:42.572 +00:00 [INF] Hosting environment: Development
+2024-03-02 17:33:42.573 +00:00 [INF] Content root path: /app
+2024-03-02 17:33:43.048 +00:00 [INF] Request starting HTTP/2 GET https://localhost:59846/N5DockerDemo - null null
+2024-03-02 17:33:43.094 +00:00 [INF] Request finished HTTP/2 GET https://localhost:59846/N5DockerDemo - 404 0 null 50.1673ms
+2024-03-02 17:33:43.102 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:59846/N5DockerDemo, Response status code: 404
+2024-03-02 17:34:12.501 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/GetPermissions - application/json 26
+2024-03-02 17:34:12.506 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 17:34:12.529 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 17:53:39.912 +00:00 [INF] Now listening on: http://[::]:8080
+2024-03-02 17:53:39.948 +00:00 [INF] Now listening on: https://[::]:8081
+2024-03-02 17:53:39.950 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-02 17:53:39.951 +00:00 [INF] Hosting environment: Development
+2024-03-02 17:53:39.952 +00:00 [INF] Content root path: /app
+2024-03-02 17:53:40.270 +00:00 [INF] Request starting HTTP/2 GET https://localhost:59846/N5DockerDemo - null null
+2024-03-02 17:53:40.305 +00:00 [INF] Request finished HTTP/2 GET https://localhost:59846/N5DockerDemo - 404 0 null 35.3766ms
+2024-03-02 17:53:40.311 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:59846/N5DockerDemo, Response status code: 404
+2024-03-02 17:53:47.209 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/GetPermissions - application/json 26
+2024-03-02 17:53:47.214 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 17:53:47.254 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 17:54:51.828 +00:00 [INF] Now listening on: http://[::]:8080
+2024-03-02 17:54:51.865 +00:00 [INF] Now listening on: https://[::]:8081
+2024-03-02 17:54:51.867 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-02 17:54:51.867 +00:00 [INF] Hosting environment: Development
+2024-03-02 17:54:51.868 +00:00 [INF] Content root path: /app
+2024-03-02 17:54:52.106 +00:00 [INF] Request starting HTTP/2 GET https://localhost:59846/N5DockerDemo - null null
+2024-03-02 17:54:52.137 +00:00 [INF] Request finished HTTP/2 GET https://localhost:59846/N5DockerDemo - 404 0 null 31.7814ms
+2024-03-02 17:54:52.142 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:59846/N5DockerDemo, Response status code: 404
+2024-03-02 17:54:55.696 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/GetPermissions - application/json 26
+2024-03-02 17:54:55.701 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 17:54:55.718 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 17:54:57.618 +00:00 [ERR] An error occurred using the connection to database 'master' on server 'n5challengedockerdemodb'.
+2024-03-02 17:56:52.962 +00:00 [INF] Now listening on: http://[::]:8080
+2024-03-02 17:56:52.999 +00:00 [INF] Now listening on: https://[::]:8081
+2024-03-02 17:56:53.001 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-02 17:56:53.002 +00:00 [INF] Hosting environment: Development
+2024-03-02 17:56:53.002 +00:00 [INF] Content root path: /app
+2024-03-02 17:56:53.223 +00:00 [INF] Request starting HTTP/2 GET https://localhost:59846/N5DockerDemo - null null
+2024-03-02 17:56:53.253 +00:00 [INF] Request finished HTTP/2 GET https://localhost:59846/N5DockerDemo - 404 0 null 30.2806ms
+2024-03-02 17:56:53.259 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:59846/N5DockerDemo, Response status code: 404
+2024-03-02 17:57:00.519 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/GetPermissions - application/json 26
+2024-03-02 17:57:00.525 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 17:57:00.543 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 17:57:02.906 +00:00 [INF] Executed DbCommand (1,337ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [N5demo];
+2024-03-02 17:57:03.879 +00:00 [INF] Executed DbCommand (971ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [N5demo] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2024-03-02 17:57:03.905 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 17:57:04.265 +00:00 [INF] Executed DbCommand (358ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 17:57:04.271 +00:00 [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [N5demo];
+2024-03-02 17:57:22.394 +00:00 [ERR] DATABASE ERROR
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetPermissions'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader()
+   at N5ChallengeDockerDemo.Data.PermissionsRepository.GetPermissions(Int32 employeeId, ILogger`1 _logger, IElasticClient elasticClient) in D:\Users\Ruben\source\repos\N5ChallengeDockerDemo\N5ChallengeDockerDemo\Data\PermissionsRepository.cs:line 146
+ClientConnectionId:31851601-7009-42e9-ac07-20721003e629
+Error Number:2812,State:62,Class:16
+2024-03-02 17:57:22.396 +00:00 [INF] Display Permissions List
+2024-03-02 17:57:22.406 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[N5ChallengeDockerDemo.ViewClasses.EmployeePermissionView, N5ChallengeDockerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-02 17:57:22.437 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo) in 21891.2593ms
+2024-03-02 17:57:22.438 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 17:57:22.444 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:59846/api/GetPermissions - 200 null application/json; charset=utf-8 21925.3092ms
+2024-03-02 17:59:28.705 +00:00 [INF] Now listening on: http://[::]:8080
+2024-03-02 17:59:28.740 +00:00 [INF] Now listening on: https://[::]:8081
+2024-03-02 17:59:28.741 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-02 17:59:28.742 +00:00 [INF] Hosting environment: Development
+2024-03-02 17:59:28.742 +00:00 [INF] Content root path: /app
+2024-03-02 17:59:29.031 +00:00 [INF] Request starting HTTP/2 GET https://localhost:59846/N5DockerDemo - null null
+2024-03-02 17:59:29.061 +00:00 [INF] Request finished HTTP/2 GET https://localhost:59846/N5DockerDemo - 404 0 null 31.4693ms
+2024-03-02 17:59:29.066 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:59846/N5DockerDemo, Response status code: 404
+2024-03-02 17:59:40.507 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/GetPermissions - application/json 26
+2024-03-02 17:59:40.512 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 17:59:40.529 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 17:59:41.514 +00:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 17:59:41.532 +00:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 17:59:41.580 +00:00 [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [N5demo];
+2024-03-02 17:59:55.892 +00:00 [ERR] DATABASE ERROR
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Employees'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader()
+   at N5ChallengeDockerDemo.Data.PermissionsRepository.GetPermissions(Int32 employeeId, ILogger`1 _logger, IElasticClient elasticClient) in D:\Users\Ruben\source\repos\N5ChallengeDockerDemo\N5ChallengeDockerDemo\Data\PermissionsRepository.cs:line 146
+ClientConnectionId:2bced184-a170-4481-8cf5-5bf628aa8caf
+Error Number:208,State:1,Class:16
+2024-03-02 17:59:55.895 +00:00 [INF] Display Permissions List
+2024-03-02 17:59:55.905 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[N5ChallengeDockerDemo.ViewClasses.EmployeePermissionView, N5ChallengeDockerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-02 17:59:55.922 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo) in 15389.9301ms
+2024-03-02 17:59:55.922 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 17:59:55.928 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:59846/api/GetPermissions - 200 null application/json; charset=utf-8 15421.5141ms
+2024-03-02 18:04:37.647 +00:00 [INF] Now listening on: http://[::]:8080
+2024-03-02 18:04:37.684 +00:00 [INF] Now listening on: https://[::]:8081
+2024-03-02 18:04:37.686 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-02 18:04:37.687 +00:00 [INF] Hosting environment: Development
+2024-03-02 18:04:37.687 +00:00 [INF] Content root path: /app
+2024-03-02 18:04:38.146 +00:00 [INF] Request starting HTTP/2 GET https://localhost:59846/N5DockerDemo - null null
+2024-03-02 18:04:38.176 +00:00 [INF] Request finished HTTP/2 GET https://localhost:59846/N5DockerDemo - 404 0 null 30.4866ms
+2024-03-02 18:04:38.183 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:59846/N5DockerDemo, Response status code: 404
+2024-03-02 18:04:43.466 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/GetPermissions - application/json 26
+2024-03-02 18:04:43.472 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:04:43.490 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 18:04:44.494 +00:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 18:04:44.546 +00:00 [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [N5demo];
+2024-03-02 18:06:02.198 +00:00 [ERR] DATABASE ERROR
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Employees'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader()
+   at N5ChallengeDockerDemo.Data.PermissionsRepository.GetPermissions(Int32 employeeId, ILogger`1 _logger, IElasticClient elasticClient) in D:\Users\Ruben\source\repos\N5ChallengeDockerDemo\N5ChallengeDockerDemo\Data\PermissionsRepository.cs:line 146
+ClientConnectionId:4d83b816-f141-4c8f-828d-61298c6fb625
+Error Number:208,State:1,Class:16
+2024-03-02 18:06:02.199 +00:00 [INF] Display Permissions List
+2024-03-02 18:06:02.205 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[N5ChallengeDockerDemo.ViewClasses.EmployeePermissionView, N5ChallengeDockerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-02 18:06:02.223 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo) in 78730.2192ms
+2024-03-02 18:06:02.223 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:06:02.230 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:59846/api/GetPermissions - 200 null application/json; charset=utf-8 78763.4784ms
+2024-03-02 18:06:07.599 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/GetPermissions - application/json 26
+2024-03-02 18:06:07.601 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:06:07.603 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 18:06:10.335 +00:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 18:06:53.742 +00:00 [ERR] Failed executing DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [N5demo];
+2024-03-02 18:07:15.376 +00:00 [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [N5demo];
+2024-03-02 18:07:53.203 +00:00 [INF] Now listening on: http://[::]:8080
+2024-03-02 18:07:53.235 +00:00 [INF] Now listening on: https://[::]:8081
+2024-03-02 18:07:53.237 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-02 18:07:53.238 +00:00 [INF] Hosting environment: Development
+2024-03-02 18:07:53.238 +00:00 [INF] Content root path: /app
+2024-03-02 18:07:53.618 +00:00 [INF] Request starting HTTP/2 GET https://localhost:59846/N5DockerDemo - null null
+2024-03-02 18:07:53.650 +00:00 [INF] Request finished HTTP/2 GET https://localhost:59846/N5DockerDemo - 404 0 null 32.9077ms
+2024-03-02 18:07:53.657 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:59846/N5DockerDemo, Response status code: 404
+2024-03-02 18:08:00.305 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/GetPermissions - application/json 26
+2024-03-02 18:08:00.311 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:08:00.329 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 18:08:06.048 +00:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 18:08:06.809 +00:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 18:08:12.614 +00:00 [ERR] Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [N5demo];
+2024-03-02 18:11:17.028 +00:00 [INF] Now listening on: http://[::]:8080
+2024-03-02 18:11:17.063 +00:00 [INF] Now listening on: https://[::]:8081
+2024-03-02 18:11:17.065 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-02 18:11:17.066 +00:00 [INF] Hosting environment: Development
+2024-03-02 18:11:17.066 +00:00 [INF] Content root path: /app
+2024-03-02 18:11:17.489 +00:00 [INF] Request starting HTTP/2 GET https://localhost:59846/N5DockerDemo - null null
+2024-03-02 18:11:17.520 +00:00 [INF] Request finished HTTP/2 GET https://localhost:59846/N5DockerDemo - 404 0 null 31.0312ms
+2024-03-02 18:11:17.526 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:59846/N5DockerDemo, Response status code: 404
+2024-03-02 18:11:21.741 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/GetPermissions - application/json 26
+2024-03-02 18:11:21.747 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:11:21.765 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 18:11:28.346 +00:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 18:11:28.365 +00:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 18:11:28.460 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [dbo].[Employee] (
+    [employee_id] int NOT NULL IDENTITY,
+    [employee_name] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Employee] PRIMARY KEY ([employee_id])
+);
+2024-03-02 18:11:28.463 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [dbo].[PermissionType] (
+    [permissionType_id] int NOT NULL IDENTITY,
+    [permissionType_name] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_PermissionType] PRIMARY KEY ([permissionType_id])
+);
+2024-03-02 18:11:28.466 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [dbo].[Permission] (
+    [permission_id] int NOT NULL IDENTITY,
+    [permission_name] nvarchar(max) NOT NULL,
+    [PermissionTypeId] int NOT NULL,
+    [EmployeeId] int NOT NULL,
+    CONSTRAINT [PK_Permission] PRIMARY KEY ([permission_id]),
+    CONSTRAINT [FK_Permission_Employee_EmployeeId] FOREIGN KEY ([EmployeeId]) REFERENCES [dbo].[Employee] ([employee_id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Permission_PermissionType_PermissionTypeId] FOREIGN KEY ([PermissionTypeId]) REFERENCES [dbo].[PermissionType] ([permissionType_id]) ON DELETE CASCADE
+);
+2024-03-02 18:11:28.468 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Permission_EmployeeId] ON [dbo].[Permission] ([EmployeeId]);
+2024-03-02 18:11:28.470 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Permission_PermissionTypeId] ON [dbo].[Permission] ([PermissionTypeId]);
+2024-03-02 18:11:31.013 +00:00 [ERR] DATABASE ERROR
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Employees'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader()
+   at N5ChallengeDockerDemo.Data.PermissionsRepository.GetPermissions(Int32 employeeId, ILogger`1 _logger, IElasticClient elasticClient) in D:\Users\Ruben\source\repos\N5ChallengeDockerDemo\N5ChallengeDockerDemo\Data\PermissionsRepository.cs:line 146
+ClientConnectionId:68d65b3e-7a53-45fd-99e0-b3b076da0363
+Error Number:208,State:1,Class:16
+2024-03-02 18:11:31.023 +00:00 [INF] Display Permissions List
+2024-03-02 18:11:31.028 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[N5ChallengeDockerDemo.ViewClasses.EmployeePermissionView, N5ChallengeDockerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-02 18:11:31.046 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo) in 9278.0705ms
+2024-03-02 18:11:31.047 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:11:31.054 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:59846/api/GetPermissions - 200 null application/json; charset=utf-8 9312.7672ms
+2024-03-02 18:26:52.733 +00:00 [INF] Now listening on: http://[::]:8080
+2024-03-02 18:26:52.771 +00:00 [INF] Now listening on: https://[::]:8081
+2024-03-02 18:26:52.773 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-02 18:26:52.774 +00:00 [INF] Hosting environment: Development
+2024-03-02 18:26:52.774 +00:00 [INF] Content root path: /app
+2024-03-02 18:26:53.022 +00:00 [INF] Request starting HTTP/2 GET https://localhost:59846/N5DockerDemo - null null
+2024-03-02 18:26:53.053 +00:00 [INF] Request finished HTTP/2 GET https://localhost:59846/N5DockerDemo - 404 0 null 32.0008ms
+2024-03-02 18:26:53.059 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:59846/N5DockerDemo, Response status code: 404
+2024-03-02 18:27:31.679 +00:00 [INF] Now listening on: http://[::]:8080
+2024-03-02 18:27:31.713 +00:00 [INF] Now listening on: https://[::]:8081
+2024-03-02 18:27:31.715 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-02 18:27:31.716 +00:00 [INF] Hosting environment: Development
+2024-03-02 18:27:31.716 +00:00 [INF] Content root path: /app
+2024-03-02 18:27:31.981 +00:00 [INF] Request starting HTTP/2 GET https://localhost:59846/N5DockerDemo - null null
+2024-03-02 18:27:32.011 +00:00 [INF] Request finished HTTP/2 GET https://localhost:59846/N5DockerDemo - 404 0 null 30.4643ms
+2024-03-02 18:27:32.015 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:59846/N5DockerDemo, Response status code: 404
+2024-03-02 18:28:14.696 +00:00 [INF] Now listening on: http://[::]:8080
+2024-03-02 18:28:14.734 +00:00 [INF] Now listening on: https://[::]:8081
+2024-03-02 18:28:14.736 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-02 18:28:14.737 +00:00 [INF] Hosting environment: Development
+2024-03-02 18:28:14.737 +00:00 [INF] Content root path: /app
+2024-03-02 18:28:14.947 +00:00 [INF] Request starting HTTP/2 GET https://localhost:59846/N5DockerDemo - null null
+2024-03-02 18:28:14.975 +00:00 [INF] Request finished HTTP/2 GET https://localhost:59846/N5DockerDemo - 404 0 null 29.427ms
+2024-03-02 18:28:14.981 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:59846/N5DockerDemo, Response status code: 404
+2024-03-02 18:28:23.155 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/GetPermissions - application/json 26
+2024-03-02 18:28:23.162 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:28:23.180 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 18:28:29.036 +00:00 [INF] Executed DbCommand (1,086ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [N5demo];
+2024-03-02 18:28:30.065 +00:00 [INF] Executed DbCommand (1,026ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [N5demo] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2024-03-02 18:28:30.093 +00:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 18:28:30.494 +00:00 [INF] Executed DbCommand (398ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 18:28:30.584 +00:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [dbo].[Employee] (
+    [employeeId] int NOT NULL IDENTITY,
+    [employeeName] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Employee] PRIMARY KEY ([employeeId])
+);
+2024-03-02 18:28:30.587 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [dbo].[PermissionType] (
+    [permissionTypeid] int NOT NULL IDENTITY,
+    [permissionTypename] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_PermissionType] PRIMARY KEY ([permissionTypeid])
+);
+2024-03-02 18:28:30.590 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [dbo].[Permission] (
+    [permissionid] int NOT NULL IDENTITY,
+    [permissionName] nvarchar(max) NOT NULL,
+    [PermissionTypeId] int NOT NULL,
+    [EmployeeId] int NOT NULL,
+    CONSTRAINT [PK_Permission] PRIMARY KEY ([permissionid]),
+    CONSTRAINT [FK_Permission_Employee_EmployeeId] FOREIGN KEY ([EmployeeId]) REFERENCES [dbo].[Employee] ([employeeId]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Permission_PermissionType_PermissionTypeId] FOREIGN KEY ([PermissionTypeId]) REFERENCES [dbo].[PermissionType] ([permissionTypeid]) ON DELETE CASCADE
+);
+2024-03-02 18:28:30.591 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Permission_EmployeeId] ON [dbo].[Permission] ([EmployeeId]);
+2024-03-02 18:28:30.593 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Permission_PermissionTypeId] ON [dbo].[Permission] ([PermissionTypeId]);
+2024-03-02 18:28:33.281 +00:00 [ERR] DATABASE ERROR
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetPermissions'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader()
+   at N5ChallengeDockerDemo.Data.PermissionsRepository.GetPermissions(Int32 employeeId, ILogger`1 _logger, IElasticClient elasticClient) in D:\Users\Ruben\source\repos\N5ChallengeDockerDemo\N5ChallengeDockerDemo\Data\PermissionsRepository.cs:line 146
+ClientConnectionId:68a0eba2-c6eb-4da5-99b9-3274b732a957
+Error Number:2812,State:62,Class:16
+2024-03-02 18:28:33.294 +00:00 [INF] Display Permissions List
+2024-03-02 18:28:33.300 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[N5ChallengeDockerDemo.ViewClasses.EmployeePermissionView, N5ChallengeDockerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-02 18:28:33.320 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo) in 10136.719ms
+2024-03-02 18:28:33.321 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:28:33.327 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:59846/api/GetPermissions - 200 null application/json; charset=utf-8 10172.6007ms
+2024-03-02 18:31:12.496 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/GetPermissions - application/json 26
+2024-03-02 18:31:12.499 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:31:12.503 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 18:31:21.125 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 18:31:21.129 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 18:31:34.477 +00:00 [ERR] DATABASE ERROR
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Employees'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader()
+   at N5ChallengeDockerDemo.Data.PermissionsRepository.GetPermissions(Int32 employeeId, ILogger`1 _logger, IElasticClient elasticClient) in D:\Users\Ruben\source\repos\N5ChallengeDockerDemo\N5ChallengeDockerDemo\Data\PermissionsRepository.cs:line 146
+ClientConnectionId:68a0eba2-c6eb-4da5-99b9-3274b732a957
+Error Number:208,State:1,Class:16
+2024-03-02 18:31:34.478 +00:00 [INF] Display Permissions List
+2024-03-02 18:31:34.480 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[N5ChallengeDockerDemo.ViewClasses.EmployeePermissionView, N5ChallengeDockerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-02 18:31:34.482 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo) in 21979.3167ms
+2024-03-02 18:31:34.483 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:31:34.483 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:59846/api/GetPermissions - 200 null application/json; charset=utf-8 21987.3614ms
+2024-03-02 18:35:03.674 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/GetPermissions - application/json 26
+2024-03-02 18:35:03.675 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:35:03.675 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 18:35:03.720 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 18:35:03.722 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 18:35:06.211 +00:00 [INF] Display Permissions List
+2024-03-02 18:35:06.212 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[N5ChallengeDockerDemo.ViewClasses.EmployeePermissionView, N5ChallengeDockerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-02 18:35:06.212 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo) in 2536.9471ms
+2024-03-02 18:35:06.213 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:35:06.214 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:59846/api/GetPermissions - 200 null application/json; charset=utf-8 2539.875ms
+2024-03-02 18:35:13.950 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/GetPermissions - application/json 26
+2024-03-02 18:35:13.953 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:35:13.953 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 18:35:13.955 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 18:35:13.957 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 18:35:30.926 +00:00 [INF] Display Permissions List
+2024-03-02 18:35:30.926 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[N5ChallengeDockerDemo.ViewClasses.EmployeePermissionView, N5ChallengeDockerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-02 18:35:30.927 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo) in 16973.2755ms
+2024-03-02 18:35:30.927 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:35:30.928 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:59846/api/GetPermissions - 200 null application/json; charset=utf-8 16978.1226ms
+2024-03-02 18:35:36.160 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/GetPermissions - application/json 26
+2024-03-02 18:35:36.161 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:35:36.162 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 18:35:36.164 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 18:35:36.166 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 18:35:44.890 +00:00 [INF] Executed DbCommand (28ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[permissionid], [p].[EmployeeId], [p].[permissionName], [p].[PermissionTypeId]
+FROM [dbo].[Permission] AS [p]
+WHERE [p].[permissionid] = @__p_0
+2024-03-02 18:35:45.054 +00:00 [INF] Display Permissions List
+2024-03-02 18:35:45.054 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[N5ChallengeDockerDemo.ViewClasses.EmployeePermissionView, N5ChallengeDockerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-02 18:35:45.056 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo) in 8894.2232ms
+2024-03-02 18:35:45.057 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:35:45.057 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:59846/api/GetPermissions - 200 null application/json; charset=utf-8 8897.1772ms
+2024-03-02 18:36:08.801 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/GetPermissions&employeeid=1 - null null
+2024-03-02 18:36:08.802 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:59846/api/GetPermissions&employeeid=1 - 404 0 null 0.9582ms
+2024-03-02 18:36:08.803 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:59846/api/GetPermissions&employeeid=1, Response status code: 404
+2024-03-02 18:36:12.730 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/GetPermissions&employeeid=1 - null null
+2024-03-02 18:36:12.731 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:59846/api/GetPermissions&employeeid=1 - 404 0 null 0.8361ms
+2024-03-02 18:36:12.732 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:59846/api/GetPermissions&employeeid=1, Response status code: 404
+2024-03-02 18:37:24.941 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/GetPermissions - null null
+2024-03-02 18:37:24.942 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:37:24.942 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 18:37:24.944 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 18:37:24.947 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 18:37:27.528 +00:00 [INF] Display Permissions List
+2024-03-02 18:37:27.528 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[N5ChallengeDockerDemo.ViewClasses.EmployeePermissionView, N5ChallengeDockerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-02 18:37:27.529 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo) in 2586.1672ms
+2024-03-02 18:37:27.529 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:37:27.531 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:59846/api/GetPermissions - 200 null application/json; charset=utf-8 2589.118ms
+2024-03-02 18:39:15.437 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/GetPermissions - application/json 26
+2024-03-02 18:39:15.437 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:39:15.438 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 18:39:15.441 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 18:39:15.442 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 18:39:30.856 +00:00 [INF] Display Permissions List
+2024-03-02 18:39:30.857 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[N5ChallengeDockerDemo.ViewClasses.EmployeePermissionView, N5ChallengeDockerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-02 18:39:30.860 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo) in 15419.5397ms
+2024-03-02 18:39:30.860 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:39:30.861 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:59846/api/GetPermissions - 200 null application/json; charset=utf-8 15424.2579ms
+2024-03-02 18:39:48.089 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/GetPermissions - application/json 26
+2024-03-02 18:39:48.090 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:39:48.090 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 18:39:48.092 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 18:39:48.094 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 18:40:15.492 +00:00 [INF] Display Permissions List
+2024-03-02 18:40:15.493 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[N5ChallengeDockerDemo.ViewClasses.EmployeePermissionView, N5ChallengeDockerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-02 18:40:15.496 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo) in 27405.6756ms
+2024-03-02 18:40:15.497 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:40:15.502 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:59846/api/GetPermissions - 200 null application/json; charset=utf-8 27412.9258ms
+2024-03-02 18:40:19.494 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/GetPermissions - application/json 26
+2024-03-02 18:40:19.494 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:40:19.495 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 18:40:19.496 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 18:40:19.498 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 18:40:58.687 +00:00 [INF] Display Permissions List
+2024-03-02 18:40:58.689 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[N5ChallengeDockerDemo.ViewClasses.EmployeePermissionView, N5ChallengeDockerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-02 18:40:58.691 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo) in 39196.5166ms
+2024-03-02 18:40:58.692 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:40:58.692 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:59846/api/GetPermissions - 200 null application/json; charset=utf-8 39198.3951ms
+2024-03-02 18:41:32.145 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/GetPermissions - application/json 26
+2024-03-02 18:41:32.146 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:41:32.146 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 18:41:32.148 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 18:41:32.151 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 18:41:37.859 +00:00 [INF] Display Permissions List
+2024-03-02 18:41:37.860 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[N5ChallengeDockerDemo.ViewClasses.EmployeePermissionView, N5ChallengeDockerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-02 18:41:37.860 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo) in 5713.2373ms
+2024-03-02 18:41:37.860 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:41:37.861 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:59846/api/GetPermissions - 200 null application/json; charset=utf-8 5715.1884ms
+2024-03-02 18:41:44.168 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/GetPermissions - application/json 25
+2024-03-02 18:41:44.170 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:41:44.170 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 18:41:44.173 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 18:41:44.175 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 18:41:53.080 +00:00 [INF] Display Permissions List
+2024-03-02 18:41:53.081 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[N5ChallengeDockerDemo.ViewClasses.EmployeePermissionView, N5ChallengeDockerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-02 18:41:53.082 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo) in 8910.3651ms
+2024-03-02 18:41:53.082 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:41:53.082 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:59846/api/GetPermissions - 200 null application/json; charset=utf-8 8913.9117ms
+2024-03-02 18:43:57.688 +00:00 [INF] Request starting HTTP/2 GET https://localhost:59846/api/GetPermissions?employeeId=1 - null null
+2024-03-02 18:43:57.690 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:43:57.691 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 18:43:57.693 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 18:43:57.695 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 18:44:03.331 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[permissionid], [p].[EmployeeId], [p].[permissionName], [p].[PermissionTypeId]
+FROM [dbo].[Permission] AS [p]
+WHERE [p].[permissionid] = @__p_0
+2024-03-02 18:44:03.340 +00:00 [INF] Display Permissions List
+2024-03-02 18:44:03.349 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[N5ChallengeDockerDemo.ViewClasses.EmployeePermissionView, N5ChallengeDockerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-02 18:44:03.350 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo) in 5658.6352ms
+2024-03-02 18:44:03.350 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:44:03.350 +00:00 [INF] Request finished HTTP/2 GET https://localhost:59846/api/GetPermissions?employeeId=1 - 200 null application/json; charset=utf-8 5662.2391ms
+2024-03-02 18:44:03.391 +00:00 [INF] Request starting HTTP/2 GET https://localhost:59846/favicon.ico - null null
+2024-03-02 18:44:03.392 +00:00 [INF] Request finished HTTP/2 GET https://localhost:59846/favicon.ico - 404 0 null 1.8998ms
+2024-03-02 18:44:03.393 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:59846/favicon.ico, Response status code: 404
+2024-03-02 18:45:04.368 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/GetPermissions?employeeId=1 - null null
+2024-03-02 18:45:04.369 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:45:04.369 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 18:45:04.372 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 18:45:04.374 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 18:45:12.053 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[permissionid], [p].[EmployeeId], [p].[permissionName], [p].[PermissionTypeId]
+FROM [dbo].[Permission] AS [p]
+WHERE [p].[permissionid] = @__p_0
+2024-03-02 18:45:12.063 +00:00 [INF] Display Permissions List
+2024-03-02 18:45:12.064 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[N5ChallengeDockerDemo.ViewClasses.EmployeePermissionView, N5ChallengeDockerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-02 18:45:12.065 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo) in 7694.4925ms
+2024-03-02 18:45:12.065 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:45:12.066 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:59846/api/GetPermissions?employeeId=1 - 200 null application/json; charset=utf-8 7697.644ms
+2024-03-02 18:47:29.068 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/ModifyPermission?permissionId=1&Name=Modified%20Permission%20Name - null null
+2024-03-02 18:47:29.069 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:59846/api/ModifyPermission?permissionId=1&Name=Modified%20Permission%20Name - 404 0 null 0.7587ms
+2024-03-02 18:47:29.069 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:59846/api/ModifyPermission, Response status code: 404
+2024-03-02 18:47:43.058 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/ModifyPermission?permissionId=1&Name=Modified%20Permission%20Name - null null
+2024-03-02 18:47:43.059 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:59846/api/ModifyPermission?permissionId=1&Name=Modified%20Permission%20Name - 404 0 null 0.7182ms
+2024-03-02 18:47:43.059 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:59846/api/ModifyPermission, Response status code: 404
+2024-03-02 18:48:27.221 +00:00 [INF] Now listening on: http://[::]:8080
+2024-03-02 18:48:27.259 +00:00 [INF] Now listening on: https://[::]:8081
+2024-03-02 18:48:27.260 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-02 18:48:27.261 +00:00 [INF] Hosting environment: Development
+2024-03-02 18:48:27.262 +00:00 [INF] Content root path: /app
+2024-03-02 18:48:27.491 +00:00 [INF] Request starting HTTP/2 GET https://localhost:59846/N5DockerDemo - null null
+2024-03-02 18:48:27.522 +00:00 [INF] Request finished HTTP/2 GET https://localhost:59846/N5DockerDemo - 404 0 null 31.5211ms
+2024-03-02 18:48:27.528 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:59846/N5DockerDemo, Response status code: 404
+2024-03-02 18:48:35.166 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/ModifyPermission?permissionId=1&Name=Modified%20Permission%20Name - null null
+2024-03-02 18:48:35.175 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:59846/api/ModifyPermission?permissionId=1&Name=Modified%20Permission%20Name - 404 0 null 9.0242ms
+2024-03-02 18:48:35.175 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:59846/api/ModifyPermission, Response status code: 404
+2024-03-02 18:56:36.298 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/RequestPermission?employeeId=1&permissionTypeId=1&name=Sick%20Leave%20Test - null null
+2024-03-02 18:56:36.301 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:59846/api/RequestPermission?employeeId=1&permissionTypeId=1&name=Sick%20Leave%20Test - 404 0 null 2.9398ms
+2024-03-02 18:56:36.301 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:59846/api/RequestPermission, Response status code: 404
+2024-03-02 18:56:43.461 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/GetPermissions?employeeId=1 - null null
+2024-03-02 18:56:43.463 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:56:43.482 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 18:56:44.629 +00:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 18:56:44.648 +00:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 18:56:53.733 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[permissionid], [p].[EmployeeId], [p].[permissionName], [p].[PermissionTypeId]
+FROM [dbo].[Permission] AS [p]
+WHERE [p].[permissionid] = @__p_0
+2024-03-02 18:56:53.868 +00:00 [INF] Display Permissions List
+2024-03-02 18:56:53.874 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[N5ChallengeDockerDemo.ViewClasses.EmployeePermissionView, N5ChallengeDockerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-02 18:56:53.893 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo) in 10408.06ms
+2024-03-02 18:56:53.893 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 18:56:53.900 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:59846/api/GetPermissions?employeeId=1 - 200 null application/json; charset=utf-8 10438.6791ms
+2024-03-02 19:06:10.876 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/RequestPermission?employeeId=1&permissionTypeId=1&name=Sick%20Leave%20Test - null null
+2024-03-02 19:06:10.877 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:59846/api/RequestPermission?employeeId=1&permissionTypeId=1&name=Sick%20Leave%20Test - 404 0 null 1.1919ms
+2024-03-02 19:06:10.878 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:59846/api/RequestPermission, Response status code: 404
+2024-03-02 19:08:03.891 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:59846/api/RequestPermission?employeeId=1&permissionTypeId=1&name=Sick%20Leave%20Test - null null
+2024-03-02 19:08:03.892 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:59846/api/RequestPermission?employeeId=1&permissionTypeId=1&name=Sick%20Leave%20Test - 404 0 null 1.1409ms
+2024-03-02 19:08:03.892 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:59846/api/RequestPermission, Response status code: 404
+2024-03-02 19:09:47.195 +00:00 [INF] Now listening on: http://[::]:8080
+2024-03-02 19:09:47.238 +00:00 [INF] Now listening on: https://[::]:8081
+2024-03-02 19:09:47.240 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-02 19:09:47.241 +00:00 [INF] Hosting environment: Development
+2024-03-02 19:09:47.241 +00:00 [INF] Content root path: /app
+2024-03-02 19:09:47.507 +00:00 [INF] Request starting HTTP/2 GET https://localhost:59846/N5DockerDemo - null null
+2024-03-02 19:09:47.540 +00:00 [INF] Request finished HTTP/2 GET https://localhost:59846/N5DockerDemo - 404 0 null 34.0132ms
+2024-03-02 19:09:47.547 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:59846/N5DockerDemo, Response status code: 404
+2024-03-02 19:09:53.614 +00:00 [INF] Request starting HTTP/1.1 PUT https://localhost:59846/api/ModifyPermission?permissionId=1&Name=Modified%20Permission%20Name - null 0
+2024-03-02 19:09:53.623 +00:00 [INF] Request finished HTTP/1.1 PUT https://localhost:59846/api/ModifyPermission?permissionId=1&Name=Modified%20Permission%20Name - 404 0 null 8.9087ms
+2024-03-02 19:09:53.623 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT https://localhost:59846/api/ModifyPermission, Response status code: 404
+2024-03-02 19:09:59.805 +00:00 [INF] Request starting HTTP/1.1 PUT https://localhost:59846/api/RequestPermission?employeeId=1&permissionTypeId=1&name=Sick%20Leave%20Test - null 0
+2024-03-02 19:09:59.807 +00:00 [INF] Request finished HTTP/1.1 PUT https://localhost:59846/api/RequestPermission?employeeId=1&permissionTypeId=1&name=Sick%20Leave%20Test - 404 0 null 2.3577ms
+2024-03-02 19:09:59.808 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT https://localhost:59846/api/RequestPermission, Response status code: 404
+2024-03-02 19:10:33.084 +00:00 [INF] Request starting HTTP/2 GET https://localhost:59846/api/GetPermissions?employeeId=1 - null null
+2024-03-02 19:10:33.088 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 19:10:33.106 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 19:10:34.141 +00:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 19:10:34.214 +00:00 [INF] Executed DbCommand (64ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 19:10:44.859 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[permissionid], [p].[EmployeeId], [p].[permissionName], [p].[PermissionTypeId]
+FROM [dbo].[Permission] AS [p]
+WHERE [p].[permissionid] = @__p_0
+2024-03-02 19:10:44.969 +00:00 [INF] Display Permissions List
+2024-03-02 19:10:44.983 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[N5ChallengeDockerDemo.ViewClasses.EmployeePermissionView, N5ChallengeDockerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-02 19:10:45.003 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo) in 11891.635ms
+2024-03-02 19:10:45.003 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 19:10:45.010 +00:00 [INF] Request finished HTTP/2 GET https://localhost:59846/api/GetPermissions?employeeId=1 - 200 null application/json; charset=utf-8 11926.1258ms
+2024-03-02 19:11:09.062 +00:00 [INF] Request starting HTTP/2 GET https://localhost:59846/api/RequestPermission?employeeId=1 - null null
+2024-03-02 19:11:09.062 +00:00 [INF] Request finished HTTP/2 GET https://localhost:59846/api/RequestPermission?employeeId=1 - 404 0 null 1.3876ms
+2024-03-02 19:11:09.063 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:59846/api/RequestPermission, Response status code: 404
+2024-03-02 19:11:37.410 +00:00 [INF] Request starting HTTP/2 GET https://localhost:59846/RequestPermission?employeeId=1 - null null
+2024-03-02 19:11:37.426 +00:00 [INF] Request finished HTTP/2 GET https://localhost:59846/RequestPermission?employeeId=1 - 404 0 null 16.3578ms
+2024-03-02 19:11:37.430 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:59846/RequestPermission, Response status code: 404
+2024-03-02 19:11:47.383 +00:00 [INF] Request starting HTTP/2 GET https://localhost:59846/api/RequestPermission?employeeId=1 - null null
+2024-03-02 19:11:47.384 +00:00 [INF] Request finished HTTP/2 GET https://localhost:59846/api/RequestPermission?employeeId=1 - 404 0 null 1.6556ms
+2024-03-02 19:11:47.385 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:59846/api/RequestPermission, Response status code: 404
+2024-03-02 19:19:52.044 +00:00 [INF] Request starting HTTP/1.1 PUT https://localhost:59846/api/ModifyPermission?permissionId=1&Name=Modified%20Permission%20Name - null 0
+2024-03-02 19:19:52.045 +00:00 [INF] Request finished HTTP/1.1 PUT https://localhost:59846/api/ModifyPermission?permissionId=1&Name=Modified%20Permission%20Name - 404 0 null 1.3914ms
+2024-03-02 19:19:52.046 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT https://localhost:59846/api/ModifyPermission, Response status code: 404
+2024-03-02 19:19:55.627 +00:00 [INF] Request starting HTTP/1.1 PUT https://localhost:59846/api/RequestPermission?employeeId=1&permissionTypeId=1&name=Sick%20Leave%20Test - null 0
+2024-03-02 19:19:55.628 +00:00 [INF] Request finished HTTP/1.1 PUT https://localhost:59846/api/RequestPermission?employeeId=1&permissionTypeId=1&name=Sick%20Leave%20Test - 404 0 null 1.4218ms
+2024-03-02 19:19:55.630 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT https://localhost:59846/api/RequestPermission, Response status code: 404
+2024-03-02 19:24:42.491 +00:00 [INF] Now listening on: http://[::]:8080
+2024-03-02 19:24:42.559 +00:00 [INF] Now listening on: https://[::]:8081
+2024-03-02 19:24:42.562 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-02 19:24:42.563 +00:00 [INF] Hosting environment: Development
+2024-03-02 19:24:42.564 +00:00 [INF] Content root path: /app
+2024-03-02 19:24:43.040 +00:00 [INF] Request starting HTTP/2 GET https://localhost:63080/N5DockerDemo - null null
+2024-03-02 19:24:43.098 +00:00 [INF] Request finished HTTP/2 GET https://localhost:63080/N5DockerDemo - 404 0 null 59.748ms
+2024-03-02 19:24:43.108 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:63080/N5DockerDemo, Response status code: 404
+2024-03-02 19:24:59.439 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:63080/api/GetPermissions?employeeId=1 - null null
+2024-03-02 19:24:59.447 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 19:24:59.467 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 19:25:13.322 +00:00 [INF] Executed DbCommand (3,594ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [N5demo];
+2024-03-02 19:25:15.085 +00:00 [INF] Executed DbCommand (1,761ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [N5demo] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2024-03-02 19:25:15.108 +00:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 19:25:15.864 +00:00 [INF] Executed DbCommand (753ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 19:25:15.967 +00:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [dbo].[Employee] (
+    [employeeId] int NOT NULL IDENTITY,
+    [employeeName] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Employee] PRIMARY KEY ([employeeId])
+);
+2024-03-02 19:25:15.970 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [dbo].[PermissionType] (
+    [permissionTypeid] int NOT NULL IDENTITY,
+    [permissionTypename] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_PermissionType] PRIMARY KEY ([permissionTypeid])
+);
+2024-03-02 19:25:15.972 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [dbo].[Permission] (
+    [permissionid] int NOT NULL IDENTITY,
+    [permissionName] nvarchar(max) NOT NULL,
+    [PermissionTypeId] int NOT NULL,
+    [EmployeeId] int NOT NULL,
+    CONSTRAINT [PK_Permission] PRIMARY KEY ([permissionid]),
+    CONSTRAINT [FK_Permission_Employee_EmployeeId] FOREIGN KEY ([EmployeeId]) REFERENCES [dbo].[Employee] ([employeeId]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Permission_PermissionType_PermissionTypeId] FOREIGN KEY ([PermissionTypeId]) REFERENCES [dbo].[PermissionType] ([permissionTypeid]) ON DELETE CASCADE
+);
+2024-03-02 19:25:15.974 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Permission_EmployeeId] ON [dbo].[Permission] ([EmployeeId]);
+2024-03-02 19:25:15.975 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Permission_PermissionTypeId] ON [dbo].[Permission] ([PermissionTypeId]);
+2024-03-02 19:25:25.186 +00:00 [ERR] DATABASE ERROR
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetPermissions'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader()
+   at N5ChallengeDockerDemo.Data.PermissionsRepository.GetPermissions(Int32 employeeId, ILogger`1 _logger, IElasticClient elasticClient) in D:\Users\Ruben\source\repos\N5ChallengeDockerDemo\N5ChallengeDockerDemo\Data\PermissionsRepository.cs:line 146
+ClientConnectionId:1ff853f6-ab24-4fe7-a8d2-289ebdde7c2b
+Error Number:2812,State:62,Class:16
+2024-03-02 19:25:25.196 +00:00 [INF] Display Permissions List
+2024-03-02 19:25:25.202 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[N5ChallengeDockerDemo.ViewClasses.EmployeePermissionView, N5ChallengeDockerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-02 19:25:25.222 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo) in 25752.1774ms
+2024-03-02 19:25:25.223 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 19:25:25.232 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:63080/api/GetPermissions?employeeId=1 - 200 null application/json; charset=utf-8 25792.5756ms
+2024-03-02 19:25:32.459 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:63080/api/GetPermissions?employeeId=1 - null null
+2024-03-02 19:25:32.464 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 19:25:32.465 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 19:25:32.483 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 19:25:32.485 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 19:26:12.950 +00:00 [ERR] DATABASE ERROR
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetPermissions'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader()
+   at N5ChallengeDockerDemo.Data.PermissionsRepository.GetPermissions(Int32 employeeId, ILogger`1 _logger, IElasticClient elasticClient) in D:\Users\Ruben\source\repos\N5ChallengeDockerDemo\N5ChallengeDockerDemo\Data\PermissionsRepository.cs:line 146
+ClientConnectionId:1ff853f6-ab24-4fe7-a8d2-289ebdde7c2b
+Error Number:2812,State:62,Class:16
+2024-03-02 19:26:12.975 +00:00 [INF] Display Permissions List
+2024-03-02 19:26:12.976 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[N5ChallengeDockerDemo.ViewClasses.EmployeePermissionView, N5ChallengeDockerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-02 19:26:12.976 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo) in 40510.6031ms
+2024-03-02 19:26:12.978 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 19:26:12.978 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:63080/api/GetPermissions?employeeId=1 - 200 null application/json; charset=utf-8 40519.2709ms
+2024-03-02 19:29:36.388 +00:00 [INF] Now listening on: http://[::]:8080
+2024-03-02 19:29:36.424 +00:00 [INF] Now listening on: https://[::]:8081
+2024-03-02 19:29:36.426 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-02 19:29:36.427 +00:00 [INF] Hosting environment: Development
+2024-03-02 19:29:36.427 +00:00 [INF] Content root path: /app
+2024-03-02 19:29:36.755 +00:00 [INF] Request starting HTTP/2 GET https://localhost:63399/N5DockerDemo - null null
+2024-03-02 19:29:36.784 +00:00 [INF] Request finished HTTP/2 GET https://localhost:63399/N5DockerDemo - 404 0 null 29.8596ms
+2024-03-02 19:29:36.789 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:63399/N5DockerDemo, Response status code: 404
+2024-03-02 19:30:17.877 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:63399/api/GetPermissions?employeeId=1 - null null
+2024-03-02 19:30:17.890 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 19:30:17.908 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 19:30:20.376 +00:00 [INF] Executed DbCommand (1,427ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [N5demo];
+2024-03-02 19:30:21.285 +00:00 [INF] Executed DbCommand (906ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [N5demo] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2024-03-02 19:30:21.313 +00:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 19:30:21.737 +00:00 [INF] Executed DbCommand (422ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 19:30:21.827 +00:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [dbo].[Employee] (
+    [employeeId] int NOT NULL IDENTITY,
+    [employeeName] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Employee] PRIMARY KEY ([employeeId])
+);
+2024-03-02 19:30:21.830 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [dbo].[PermissionType] (
+    [permissionTypeid] int NOT NULL IDENTITY,
+    [permissionTypename] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_PermissionType] PRIMARY KEY ([permissionTypeid])
+);
+2024-03-02 19:30:21.832 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [dbo].[Permission] (
+    [permissionid] int NOT NULL IDENTITY,
+    [permissionName] nvarchar(max) NOT NULL,
+    [PermissionTypeId] int NOT NULL,
+    [EmployeeId] int NOT NULL,
+    CONSTRAINT [PK_Permission] PRIMARY KEY ([permissionid]),
+    CONSTRAINT [FK_Permission_Employee_EmployeeId] FOREIGN KEY ([EmployeeId]) REFERENCES [dbo].[Employee] ([employeeId]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Permission_PermissionType_PermissionTypeId] FOREIGN KEY ([PermissionTypeId]) REFERENCES [dbo].[PermissionType] ([permissionTypeid]) ON DELETE CASCADE
+);
+2024-03-02 19:30:21.834 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Permission_EmployeeId] ON [dbo].[Permission] ([EmployeeId]);
+2024-03-02 19:30:21.836 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Permission_PermissionTypeId] ON [dbo].[Permission] ([PermissionTypeId]);
+2024-03-02 19:31:01.813 +00:00 [ERR] DATABASE ERROR
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetPermissions'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader()
+   at N5ChallengeDockerDemo.Data.PermissionsRepository.GetPermissions(Int32 employeeId, ILogger`1 _logger, IElasticClient elasticClient) in D:\Users\Ruben\source\repos\N5ChallengeDockerDemo\N5ChallengeDockerDemo\Data\PermissionsRepository.cs:line 146
+ClientConnectionId:49994df6-d5d3-4888-ac41-e8a938b9a786
+Error Number:2812,State:62,Class:16
+2024-03-02 19:31:01.816 +00:00 [INF] Display Permissions List
+2024-03-02 19:31:01.822 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[N5ChallengeDockerDemo.ViewClasses.EmployeePermissionView, N5ChallengeDockerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-02 19:31:01.840 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo) in 43928.9899ms
+2024-03-02 19:31:01.841 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 19:31:01.848 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:63399/api/GetPermissions?employeeId=1 - 200 null application/json; charset=utf-8 43970.8544ms
+2024-03-02 19:31:16.015 +00:00 [INF] Request starting HTTP/1.1 PUT https://localhost:63399/api/ModifyPermission?permissionId=1&Name=Modified%20Permission%20Name - null 0
+2024-03-02 19:31:16.018 +00:00 [INF] Request finished HTTP/1.1 PUT https://localhost:63399/api/ModifyPermission?permissionId=1&Name=Modified%20Permission%20Name - 404 0 null 2.823ms
+2024-03-02 19:31:16.018 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT https://localhost:63399/api/ModifyPermission, Response status code: 404
+2024-03-02 19:31:23.271 +00:00 [INF] Request starting HTTP/1.1 PUT https://localhost:63399/api/RequestPermission?employeeId=1&permissionTypeId=1&name=Sick%20Leave%20Test - null 0
+2024-03-02 19:31:23.271 +00:00 [INF] Request finished HTTP/1.1 PUT https://localhost:63399/api/RequestPermission?employeeId=1&permissionTypeId=1&name=Sick%20Leave%20Test - 404 0 null 0.7803ms
+2024-03-02 19:31:23.272 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT https://localhost:63399/api/RequestPermission, Response status code: 404
+2024-03-02 19:36:34.938 +00:00 [INF] Now listening on: http://[::]:8080
+2024-03-02 19:36:34.974 +00:00 [INF] Now listening on: https://[::]:8081
+2024-03-02 19:36:34.976 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-02 19:36:34.977 +00:00 [INF] Hosting environment: Development
+2024-03-02 19:36:34.977 +00:00 [INF] Content root path: /app
+2024-03-02 19:36:35.280 +00:00 [INF] Request starting HTTP/2 GET https://localhost:63399/N5DockerDemo - null null
+2024-03-02 19:36:35.325 +00:00 [INF] Request finished HTTP/2 GET https://localhost:63399/N5DockerDemo - 404 0 null 45.6231ms
+2024-03-02 19:36:35.335 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:63399/N5DockerDemo, Response status code: 404
+2024-03-02 19:48:00.814 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:63399/api/GetPermissions?employeeId=1 - null null
+2024-03-02 19:48:00.821 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 19:48:00.840 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 19:48:03.336 +00:00 [INF] Executed DbCommand (1,292ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [N5demo];
+2024-03-02 19:48:04.299 +00:00 [INF] Executed DbCommand (960ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [N5demo] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2024-03-02 19:48:04.331 +00:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 19:48:04.694 +00:00 [INF] Executed DbCommand (360ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 19:48:04.758 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [dbo].[Employee] (
+    [employeeId] int NOT NULL IDENTITY,
+    [employeeName] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Employee] PRIMARY KEY ([employeeId])
+);
+2024-03-02 19:48:04.761 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [dbo].[PermissionType] (
+    [permissionTypeid] int NOT NULL IDENTITY,
+    [permissionTypename] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_PermissionType] PRIMARY KEY ([permissionTypeid])
+);
+2024-03-02 19:48:04.764 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [dbo].[Permission] (
+    [permissionid] int NOT NULL IDENTITY,
+    [permissionName] nvarchar(max) NOT NULL,
+    [PermissionTypeId] int NOT NULL,
+    [EmployeeId] int NOT NULL,
+    CONSTRAINT [PK_Permission] PRIMARY KEY ([permissionid]),
+    CONSTRAINT [FK_Permission_Employee_EmployeeId] FOREIGN KEY ([EmployeeId]) REFERENCES [dbo].[Employee] ([employeeId]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Permission_PermissionType_PermissionTypeId] FOREIGN KEY ([PermissionTypeId]) REFERENCES [dbo].[PermissionType] ([permissionTypeid]) ON DELETE CASCADE
+);
+2024-03-02 19:48:04.766 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Permission_EmployeeId] ON [dbo].[Permission] ([EmployeeId]);
+2024-03-02 19:48:04.767 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Permission_PermissionTypeId] ON [dbo].[Permission] ([PermissionTypeId]);
+2024-03-02 19:48:14.581 +00:00 [ERR] DATABASE ERROR
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'GetPermissions'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader()
+   at N5ChallengeDockerDemo.Data.PermissionsRepository.GetPermissions(Int32 employeeId, ILogger`1 _logger, IElasticClient elasticClient)
+ClientConnectionId:ffcb11fb-4a91-4e11-a921-99b979958a60
+Error Number:2812,State:62,Class:16
+2024-03-02 19:48:14.588 +00:00 [INF] Display Permissions List
+2024-03-02 19:48:14.594 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[N5ChallengeDockerDemo.ViewClasses.EmployeePermissionView, N5ChallengeDockerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-02 19:48:14.616 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo) in 13772.5878ms
+2024-03-02 19:48:14.616 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 19:48:14.623 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:63399/api/GetPermissions?employeeId=1 - 200 null application/json; charset=utf-8 13808.5112ms
+2024-03-02 19:57:27.815 +00:00 [INF] Now listening on: http://[::]:8080
+2024-03-02 19:57:27.850 +00:00 [INF] Now listening on: https://[::]:8081
+2024-03-02 19:57:27.852 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-02 19:57:27.852 +00:00 [INF] Hosting environment: Development
+2024-03-02 19:57:27.853 +00:00 [INF] Content root path: /app
+2024-03-02 19:57:28.194 +00:00 [INF] Request starting HTTP/2 GET https://localhost:63399/N5DockerDemo - null null
+2024-03-02 19:57:28.225 +00:00 [INF] Request finished HTTP/2 GET https://localhost:63399/N5DockerDemo - 404 0 null 31.7589ms
+2024-03-02 19:57:28.233 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:63399/N5DockerDemo, Response status code: 404
+2024-03-02 19:57:32.614 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:63399/api/GetPermissions?employeeId=1 - null null
+2024-03-02 19:57:32.621 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 19:57:32.639 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 19:57:33.640 +00:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 19:57:33.659 +00:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 19:57:39.095 +00:00 [INF] Executed DbCommand (26ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[permissionid], [p].[EmployeeId], [p].[permissionName], [p].[PermissionTypeId]
+FROM [dbo].[Permission] AS [p]
+WHERE [p].[permissionid] = @__p_0
+2024-03-02 19:57:39.209 +00:00 [INF] Display Permissions List
+2024-03-02 19:57:39.215 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[N5ChallengeDockerDemo.ViewClasses.EmployeePermissionView, N5ChallengeDockerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-02 19:57:39.235 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo) in 6593.2005ms
+2024-03-02 19:57:39.237 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 19:57:39.244 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:63399/api/GetPermissions?employeeId=1 - 200 null application/json; charset=utf-8 6629.9959ms
+2024-03-02 19:57:47.552 +00:00 [INF] Request starting HTTP/1.1 PUT https://localhost:63399/api/ModifyPermission?permissionId=1&Name=Modified%20Permission%20Name - null 0
+2024-03-02 19:57:47.554 +00:00 [INF] Request finished HTTP/1.1 PUT https://localhost:63399/api/ModifyPermission?permissionId=1&Name=Modified%20Permission%20Name - 404 0 null 2.3864ms
+2024-03-02 19:57:47.555 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT https://localhost:63399/api/ModifyPermission, Response status code: 404
+2024-03-02 19:57:57.865 +00:00 [INF] Request starting HTTP/1.1 PUT https://localhost:63399/api/RequestPermission?employeeId=1&permissionTypeId=1&name=Sick%20Leave%20Test - null 0
+2024-03-02 19:57:57.866 +00:00 [INF] Request finished HTTP/1.1 PUT https://localhost:63399/api/RequestPermission?employeeId=1&permissionTypeId=1&name=Sick%20Leave%20Test - 404 0 null 0.9756ms
+2024-03-02 19:57:57.867 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT https://localhost:63399/api/RequestPermission, Response status code: 404
+2024-03-02 20:00:49.573 +00:00 [INF] Now listening on: http://[::]:8080
+2024-03-02 20:00:49.613 +00:00 [INF] Now listening on: https://[::]:8081
+2024-03-02 20:00:49.615 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-02 20:00:49.616 +00:00 [INF] Hosting environment: Development
+2024-03-02 20:00:49.616 +00:00 [INF] Content root path: /app
+2024-03-02 20:00:49.899 +00:00 [INF] Request starting HTTP/2 GET https://localhost:63399/N5DockerDemo - null null
+2024-03-02 20:00:49.934 +00:00 [INF] Request finished HTTP/2 GET https://localhost:63399/N5DockerDemo - 404 0 null 37.5986ms
+2024-03-02 20:00:49.941 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:63399/N5DockerDemo, Response status code: 404
+2024-03-02 20:05:52.322 +00:00 [INF] Request starting HTTP/1.1 PUT https://localhost:63399/api/ModifyPermission?permissionId=1&Name=Modified%20Permission%20Name - null 0
+2024-03-02 20:05:52.328 +00:00 [INF] Request finished HTTP/1.1 PUT https://localhost:63399/api/ModifyPermission?permissionId=1&Name=Modified%20Permission%20Name - 404 0 null 3.8291ms
+2024-03-02 20:05:52.330 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT https://localhost:63399/api/ModifyPermission, Response status code: 404
+2024-03-02 20:06:12.838 +00:00 [INF] Request starting HTTP/1.1 PUT http://localhost:63398/api/ModifyPermission?permissionId=1&Name=Modified%20Permission%20Name - null 0
+2024-03-02 20:06:12.841 +00:00 [INF] Request finished HTTP/1.1 PUT http://localhost:63398/api/ModifyPermission?permissionId=1&Name=Modified%20Permission%20Name - 307 0 null 3.2828ms
+2024-03-02 20:06:12.849 +00:00 [INF] Request starting HTTP/1.1 PUT https://localhost:63399/api/ModifyPermission?permissionId=1&Name=Modified%20Permission%20Name - null 0
+2024-03-02 20:06:12.850 +00:00 [INF] Request finished HTTP/1.1 PUT https://localhost:63399/api/ModifyPermission?permissionId=1&Name=Modified%20Permission%20Name - 404 0 null 0.6895ms
+2024-03-02 20:06:12.851 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT https://localhost:63399/api/ModifyPermission, Response status code: 404
+2024-03-02 20:10:31.704 +00:00 [INF] Request starting HTTP/1.1 PUT https://localhost:63399/api/ModifyPermission/permissionId=1,Name?Modified%20Permission%20Name - null 0
+2024-03-02 20:10:31.704 +00:00 [INF] Request finished HTTP/1.1 PUT https://localhost:63399/api/ModifyPermission/permissionId=1,Name?Modified%20Permission%20Name - 404 0 null 0.6423ms
+2024-03-02 20:10:31.705 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT https://localhost:63399/api/ModifyPermission/permissionId=1,Name, Response status code: 404
+2024-03-02 20:10:39.424 +00:00 [INF] Request starting HTTP/1.1 PUT https://localhost:63399/api/ModifyPermission - null 0
+2024-03-02 20:10:39.425 +00:00 [INF] Request finished HTTP/1.1 PUT https://localhost:63399/api/ModifyPermission - 404 0 null 0.8595ms
+2024-03-02 20:10:39.425 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT https://localhost:63399/api/ModifyPermission, Response status code: 404
+2024-03-02 20:10:45.249 +00:00 [INF] Request starting HTTP/1.1 PUT https://localhost:63399/api/ModifyPermission/ - null 0
+2024-03-02 20:10:45.250 +00:00 [INF] Request finished HTTP/1.1 PUT https://localhost:63399/api/ModifyPermission/ - 404 0 null 0.6297ms
+2024-03-02 20:10:45.251 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT https://localhost:63399/api/ModifyPermission/, Response status code: 404
+2024-03-02 20:12:07.684 +00:00 [INF] Request starting HTTP/1.1 POST https://localhost:63399/api/ModifyPermission - application/json 55
+2024-03-02 20:12:07.685 +00:00 [INF] Request finished HTTP/1.1 POST https://localhost:63399/api/ModifyPermission - 404 0 null 0.7957ms
+2024-03-02 20:12:07.685 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:63399/api/ModifyPermission, Response status code: 404
+2024-03-02 20:12:33.106 +00:00 [INF] Request starting HTTP/1.1 PUT https://localhost:63399/api/ModifyPermission - application/json 55
+2024-03-02 20:12:33.107 +00:00 [INF] Request finished HTTP/1.1 PUT https://localhost:63399/api/ModifyPermission - 404 0 null 0.751ms
+2024-03-02 20:12:33.107 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: PUT https://localhost:63399/api/ModifyPermission, Response status code: 404
+2024-03-02 20:16:32.936 +00:00 [INF] Now listening on: http://[::]:8080
+2024-03-02 20:16:32.971 +00:00 [INF] Now listening on: https://[::]:8081
+2024-03-02 20:16:32.973 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-02 20:16:32.973 +00:00 [INF] Hosting environment: Development
+2024-03-02 20:16:32.974 +00:00 [INF] Content root path: /app
+2024-03-02 20:16:33.300 +00:00 [INF] Request starting HTTP/2 GET https://localhost:63399/N5DockerDemo - null null
+2024-03-02 20:16:33.332 +00:00 [INF] Request finished HTTP/2 GET https://localhost:63399/N5DockerDemo - 404 0 null 33.6461ms
+2024-03-02 20:16:33.339 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:63399/N5DockerDemo, Response status code: 404
+2024-03-02 20:16:52.296 +00:00 [INF] Request starting HTTP/1.1 PUT https://localhost:63399/api/ModifyPermission - application/json 55
+2024-03-02 20:16:52.306 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.ModifyPermissionController.ModifyPermission (N5ChallengeDockerDemo)'
+2024-03-02 20:16:52.325 +00:00 [INF] Route matched with {action = "ModifyPermission", controller = "ModifyPermission"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ModifyPermission(Int32, System.String) on controller N5ChallengeDockerDemo.Controllers.ModifyPermissionController (N5ChallengeDockerDemo).
+2024-03-02 20:16:53.561 +00:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 20:16:53.630 +00:00 [INF] Executed DbCommand (60ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 20:16:53.653 +00:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-03-02 20:16:53.691 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.ModifyPermissionController.ModifyPermission (N5ChallengeDockerDemo) in 1362.375ms
+2024-03-02 20:16:53.692 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.ModifyPermissionController.ModifyPermission (N5ChallengeDockerDemo)'
+2024-03-02 20:16:53.698 +00:00 [INF] Request finished HTTP/1.1 PUT https://localhost:63399/api/ModifyPermission - 400 null application/problem+json; charset=utf-8 1402.03ms
+2024-03-02 20:17:46.104 +00:00 [INF] Request starting HTTP/1.1 PUT https://localhost:63399/api/ModifyPermission - application/json 57
+2024-03-02 20:17:46.106 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.ModifyPermissionController.ModifyPermission (N5ChallengeDockerDemo)'
+2024-03-02 20:17:46.107 +00:00 [INF] Route matched with {action = "ModifyPermission", controller = "ModifyPermission"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ModifyPermission(Int32, System.String) on controller N5ChallengeDockerDemo.Controllers.ModifyPermissionController (N5ChallengeDockerDemo).
+2024-03-02 20:17:46.126 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 20:17:46.128 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 20:17:46.130 +00:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-03-02 20:17:46.131 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.ModifyPermissionController.ModifyPermission (N5ChallengeDockerDemo) in 24.08ms
+2024-03-02 20:17:46.132 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.ModifyPermissionController.ModifyPermission (N5ChallengeDockerDemo)'
+2024-03-02 20:17:46.133 +00:00 [INF] Request finished HTTP/1.1 PUT https://localhost:63399/api/ModifyPermission - 400 null application/problem+json; charset=utf-8 28.9321ms
+2024-03-02 20:17:57.512 +00:00 [INF] Request starting HTTP/1.1 PUT https://localhost:63399/api/ModifyPermission - application/json 55
+2024-03-02 20:17:57.513 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.ModifyPermissionController.ModifyPermission (N5ChallengeDockerDemo)'
+2024-03-02 20:17:57.513 +00:00 [INF] Route matched with {action = "ModifyPermission", controller = "ModifyPermission"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ModifyPermission(Int32, System.String) on controller N5ChallengeDockerDemo.Controllers.ModifyPermissionController (N5ChallengeDockerDemo).
+2024-03-02 20:17:57.558 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 20:17:57.560 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 20:17:57.561 +00:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-03-02 20:17:57.562 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.ModifyPermissionController.ModifyPermission (N5ChallengeDockerDemo) in 47.9513ms
+2024-03-02 20:17:57.562 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.ModifyPermissionController.ModifyPermission (N5ChallengeDockerDemo)'
+2024-03-02 20:17:57.562 +00:00 [INF] Request finished HTTP/1.1 PUT https://localhost:63399/api/ModifyPermission - 400 null application/problem+json; charset=utf-8 50.4ms
+2024-03-02 20:18:14.195 +00:00 [INF] Request starting HTTP/1.1 PUT https://localhost:63399/api/RequestPermission?employeeId=1&permissionTypeId=1&name=Sick%20Leave%20Test - null 0
+2024-03-02 20:18:14.196 +00:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-03-02 20:18:14.196 +00:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-03-02 20:18:14.197 +00:00 [INF] Request finished HTTP/1.1 PUT https://localhost:63399/api/RequestPermission?employeeId=1&permissionTypeId=1&name=Sick%20Leave%20Test - 405 0 null 2.2881ms
+2024-03-02 20:18:44.520 +00:00 [INF] Request starting HTTP/1.1 PUT https://localhost:63399/api/ModifyPermission?permissionId=1&name=postManTest - application/json 55
+2024-03-02 20:18:44.542 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.ModifyPermissionController.ModifyPermission (N5ChallengeDockerDemo)'
+2024-03-02 20:18:44.542 +00:00 [INF] Route matched with {action = "ModifyPermission", controller = "ModifyPermission"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ModifyPermission(Int32, System.String) on controller N5ChallengeDockerDemo.Controllers.ModifyPermissionController (N5ChallengeDockerDemo).
+2024-03-02 20:18:44.544 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 20:18:44.546 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 20:18:49.843 +00:00 [ERR] DATABASE ERROR
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'ModifyPermission'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String methodName)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at N5ChallengeDockerDemo.Data.PermissionsRepository.ModifyPermission(Int32 permissionId, String name, ILogger`1 _logger, IElasticClient elasticClient) in D:\Users\Ruben\source\repos\N5ChallengeDockerDemo\N5ChallengeDockerDemo\Data\PermissionsRepository.cs:line 48
+ClientConnectionId:268c6d81-4387-4757-9f24-096f285a7079
+Error Number:2812,State:62,Class:16
+2024-03-02 20:18:49.854 +00:00 [INF] Register New Employee Permission
+2024-03-02 20:18:49.854 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-03-02 20:18:49.856 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.ModifyPermissionController.ModifyPermission (N5ChallengeDockerDemo) in 5313.2922ms
+2024-03-02 20:18:49.856 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.ModifyPermissionController.ModifyPermission (N5ChallengeDockerDemo)'
+2024-03-02 20:18:49.857 +00:00 [INF] Request finished HTTP/1.1 PUT https://localhost:63399/api/ModifyPermission?permissionId=1&name=postManTest - 200 null text/plain; charset=utf-8 5336.5373ms
+2024-03-02 20:18:53.006 +00:00 [INF] Request starting HTTP/1.1 PUT https://localhost:63399/api/ModifyPermission?permissionId=1&name=postManTest - application/json 55
+2024-03-02 20:18:53.007 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.ModifyPermissionController.ModifyPermission (N5ChallengeDockerDemo)'
+2024-03-02 20:18:53.007 +00:00 [INF] Route matched with {action = "ModifyPermission", controller = "ModifyPermission"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ModifyPermission(Int32, System.String) on controller N5ChallengeDockerDemo.Controllers.ModifyPermissionController (N5ChallengeDockerDemo).
+2024-03-02 20:18:53.010 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 20:18:53.011 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 20:20:46.756 +00:00 [ERR] DATABASE ERROR
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'ModifyPermission'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String methodName)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at N5ChallengeDockerDemo.Data.PermissionsRepository.ModifyPermission(Int32 permissionId, String name, ILogger`1 _logger, IElasticClient elasticClient) in D:\Users\Ruben\source\repos\N5ChallengeDockerDemo\N5ChallengeDockerDemo\Data\PermissionsRepository.cs:line 48
+ClientConnectionId:268c6d81-4387-4757-9f24-096f285a7079
+Error Number:2812,State:62,Class:16
+2024-03-02 20:20:46.758 +00:00 [INF] Register New Employee Permission
+2024-03-02 20:20:46.759 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-03-02 20:20:46.759 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.ModifyPermissionController.ModifyPermission (N5ChallengeDockerDemo) in 113752.4282ms
+2024-03-02 20:20:46.760 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.ModifyPermissionController.ModifyPermission (N5ChallengeDockerDemo)'
+2024-03-02 20:20:46.760 +00:00 [INF] Request finished HTTP/1.1 PUT https://localhost:63399/api/ModifyPermission?permissionId=1&name=postManTest - 200 null text/plain; charset=utf-8 113755.14ms
+2024-03-02 20:20:50.210 +00:00 [INF] Request starting HTTP/1.1 PUT https://localhost:63399/api/ModifyPermission?permissionId=1&name=postManTest - application/json 55
+2024-03-02 20:20:50.211 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.ModifyPermissionController.ModifyPermission (N5ChallengeDockerDemo)'
+2024-03-02 20:20:50.211 +00:00 [INF] Route matched with {action = "ModifyPermission", controller = "ModifyPermission"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ModifyPermission(Int32, System.String) on controller N5ChallengeDockerDemo.Controllers.ModifyPermissionController (N5ChallengeDockerDemo).
+2024-03-02 20:20:50.213 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 20:20:50.215 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 20:21:05.137 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[permissionid], [p].[EmployeeId], [p].[permissionName], [p].[PermissionTypeId]
+FROM [dbo].[Permission] AS [p]
+WHERE [p].[permissionid] = @__p_0
+2024-03-02 20:21:05.245 +00:00 [INF] Register New Employee Permission
+2024-03-02 20:21:05.245 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-03-02 20:21:05.246 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.ModifyPermissionController.ModifyPermission (N5ChallengeDockerDemo) in 15034.6662ms
+2024-03-02 20:21:05.246 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.ModifyPermissionController.ModifyPermission (N5ChallengeDockerDemo)'
+2024-03-02 20:21:05.247 +00:00 [INF] Request finished HTTP/1.1 PUT https://localhost:63399/api/ModifyPermission?permissionId=1&name=postManTest - 200 null text/plain; charset=utf-8 15036.9643ms
+2024-03-02 20:21:41.023 +00:00 [INF] Request starting HTTP/1.1 PUT https://localhost:63399/api/RequestPermission?employeeId=1&permissionTypeId=1&name=Sick%20Leave%20Test - null 0
+2024-03-02 20:21:41.023 +00:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-03-02 20:21:41.024 +00:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-03-02 20:21:41.024 +00:00 [INF] Request finished HTTP/1.1 PUT https://localhost:63399/api/RequestPermission?employeeId=1&permissionTypeId=1&name=Sick%20Leave%20Test - 405 0 null 1.8071ms
+2024-03-02 20:22:00.514 +00:00 [INF] Request starting HTTP/1.1 POST https://localhost:63399/api/RequestPermission?employeeId=1&permissionTypeId=1&name=Sick%20Leave%20Test - null 0
+2024-03-02 20:22:00.516 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.RequestPermissionController.RequestPermission (N5ChallengeDockerDemo)'
+2024-03-02 20:22:00.519 +00:00 [INF] Route matched with {action = "RequestPermission", controller = "RequestPermission"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestPermission(Int32, Int32, System.String) on controller N5ChallengeDockerDemo.Controllers.RequestPermissionController (N5ChallengeDockerDemo).
+2024-03-02 20:22:00.522 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 20:22:00.523 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 20:22:07.081 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[permissionid], [p].[EmployeeId], [p].[permissionName], [p].[PermissionTypeId]
+FROM [dbo].[Permission] AS [p]
+WHERE [p].[permissionid] = @__p_0
+2024-03-02 20:22:07.090 +00:00 [INF] Register New Employee Permission
+2024-03-02 20:22:07.090 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-03-02 20:22:07.090 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.RequestPermissionController.RequestPermission (N5ChallengeDockerDemo) in 6570.8548ms
+2024-03-02 20:22:07.091 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.RequestPermissionController.RequestPermission (N5ChallengeDockerDemo)'
+2024-03-02 20:22:07.091 +00:00 [INF] Request finished HTTP/1.1 POST https://localhost:63399/api/RequestPermission?employeeId=1&permissionTypeId=1&name=Sick%20Leave%20Test - 200 null text/plain; charset=utf-8 6577.3526ms
+2024-03-02 20:22:25.938 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:63399/api/GetPermissions?employeeId=1 - null null
+2024-03-02 20:22:25.939 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:63399/api/GetPermissions?employeeId=1 - 404 0 null 1.1164ms
+2024-03-02 20:22:25.939 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:63399/api/GetPermissions, Response status code: 404
+2024-03-02 20:22:29.650 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:63399/api/GetPermissions?employeeId=1 - null null
+2024-03-02 20:22:29.651 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:63399/api/GetPermissions?employeeId=1 - 404 0 null 0.5095ms
+2024-03-02 20:22:29.651 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:63399/api/GetPermissions, Response status code: 404
+2024-03-02 20:22:49.198 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:63399/api/GetPermissions?employeeId=1 - null null
+2024-03-02 20:22:49.199 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:63399/api/GetPermissions?employeeId=1 - 404 0 null 0.9789ms
+2024-03-02 20:22:49.199 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:63399/api/GetPermissions, Response status code: 404
+2024-03-02 20:23:14.128 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:63399/api/GetPermissions?employeeId=1 - null null
+2024-03-02 20:23:14.135 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:63399/api/GetPermissions?employeeId=1 - 404 0 null 6.6438ms
+2024-03-02 20:23:14.136 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:63399/api/GetPermissions, Response status code: 404
+2024-03-02 20:24:29.688 +00:00 [INF] Now listening on: http://[::]:8080
+2024-03-02 20:24:29.723 +00:00 [INF] Now listening on: https://[::]:8081
+2024-03-02 20:24:29.725 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-02 20:24:29.725 +00:00 [INF] Hosting environment: Development
+2024-03-02 20:24:29.726 +00:00 [INF] Content root path: /app
+2024-03-02 20:24:30.005 +00:00 [INF] Request starting HTTP/2 GET https://localhost:63399/N5DockerDemo - null null
+2024-03-02 20:24:30.036 +00:00 [INF] Request finished HTTP/2 GET https://localhost:63399/N5DockerDemo - 404 0 null 31.7477ms
+2024-03-02 20:24:30.042 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:63399/N5DockerDemo, Response status code: 404
+2024-03-02 20:24:50.048 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:63399/api/GetPermissions?employeeId=1 - null null
+2024-03-02 20:24:50.058 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:63399/api/GetPermissions?employeeId=1 - 404 0 null 9.8758ms
+2024-03-02 20:24:50.058 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:63399/api/GetPermissions, Response status code: 404
+2024-03-02 20:25:12.151 +00:00 [INF] Now listening on: http://[::]:8080
+2024-03-02 20:25:12.185 +00:00 [INF] Now listening on: https://[::]:8081
+2024-03-02 20:25:12.187 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-02 20:25:12.187 +00:00 [INF] Hosting environment: Development
+2024-03-02 20:25:12.188 +00:00 [INF] Content root path: /app
+2024-03-02 20:25:12.421 +00:00 [INF] Request starting HTTP/2 GET https://localhost:63399/N5DockerDemo - null null
+2024-03-02 20:25:12.451 +00:00 [INF] Request finished HTTP/2 GET https://localhost:63399/N5DockerDemo - 404 0 null 30.5634ms
+2024-03-02 20:25:12.456 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:63399/N5DockerDemo, Response status code: 404
+2024-03-02 20:25:14.714 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:63399/api/GetPermissions?employeeId=1 - null null
+2024-03-02 20:25:14.721 +00:00 [INF] Executing endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 20:25:14.740 +00:00 [INF] Route matched with {action = "GetPermissions", controller = "GetPermissions"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPermissions(Int32) on controller N5ChallengeDockerDemo.Controllers.GetPermissionsController (N5ChallengeDockerDemo).
+2024-03-02 20:25:15.756 +00:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-03-02 20:25:15.774 +00:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2024-03-02 20:25:22.231 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[permissionid], [p].[EmployeeId], [p].[permissionName], [p].[PermissionTypeId]
+FROM [dbo].[Permission] AS [p]
+WHERE [p].[permissionid] = @__p_0
+2024-03-02 20:25:22.349 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[permissionid], [p].[EmployeeId], [p].[permissionName], [p].[PermissionTypeId]
+FROM [dbo].[Permission] AS [p]
+WHERE [p].[permissionid] = @__p_0
+2024-03-02 20:25:22.378 +00:00 [INF] Display Permissions List
+2024-03-02 20:25:22.384 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[N5ChallengeDockerDemo.ViewClasses.EmployeePermissionView, N5ChallengeDockerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-02 20:25:22.405 +00:00 [INF] Executed action N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo) in 7661.3307ms
+2024-03-02 20:25:22.405 +00:00 [INF] Executed endpoint 'N5ChallengeDockerDemo.Controllers.GetPermissionsController.GetPermissions (N5ChallengeDockerDemo)'
+2024-03-02 20:25:22.412 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:63399/api/GetPermissions?employeeId=1 - 200 null application/json; charset=utf-8 7698.3017ms
