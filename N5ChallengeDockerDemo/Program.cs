@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using N5ChallengeDockerDemo.Data;
 using N5ChallengeDockerDemo.Interfaces;
+using N5ChallengeDockerDemo.Services;
 using Nest;
 using Serilog;
 
@@ -26,6 +27,9 @@ var settings = new ConnectionSettings(new Uri(url)).DefaultIndex(defaultIndex);
 var client = new ElasticClient(settings);
 
 builder.Services.AddSingleton<IElasticClient>(client);
+
+//KAFKA
+builder.Services.AddSingleton<ProducerService>();
 
 builder.Services.AddControllers();
 
