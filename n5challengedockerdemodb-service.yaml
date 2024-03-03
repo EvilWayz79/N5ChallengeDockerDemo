@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    kompose.cmd: D:\Users\Ruben\source\repos\N5ChallengeDockerDemo\kompose.exe convert
+    kompose.version: 1.26.0 (40646f47)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: n5challengedockerdemodb
+  name: n5challengedockerdemodb
+spec:
+  ports:
+    - name: "1433"
+      port: 1433
+      targetPort: 1433
+  selector:
+    io.kompose.service: n5challengedockerdemodb
+status:
+  loadBalancer: {}

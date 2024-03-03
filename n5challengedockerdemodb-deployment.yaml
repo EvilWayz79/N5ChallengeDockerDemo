@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: D:\Users\Ruben\source\repos\N5ChallengeDockerDemo\kompose.exe convert
+    kompose.version: 1.26.0 (40646f47)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: n5challengedockerdemodb
+  name: n5challengedockerdemodb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: n5challengedockerdemodb
+  strategy: {}
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: D:\Users\Ruben\source\repos\N5ChallengeDockerDemo\kompose.exe convert
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.network/backend: "true"
+        io.kompose.service: n5challengedockerdemodb
+    spec:
+      containers:
+        - env:
+            - name: ACCEPT_EULA
+              value: "Y"
+            - name: SA_PASSWORD
+              value: yourStrong(!)Password
+          image: mcr.microsoft.com/mssql/server:2022-latest
+          name: n5challengedockerdemodb
+          ports:
+            - containerPort: 1433
+          resources: {}
+      restartPolicy: Always
+status: {}

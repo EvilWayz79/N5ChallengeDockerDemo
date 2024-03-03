@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: D:\Users\Ruben\source\repos\N5ChallengeDockerDemo\kompose.exe convert
+    kompose.version: 1.26.0 (40646f47)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: n5challengedockerdemo
+  name: n5challengedockerdemo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: n5challengedockerdemo
+  strategy: {}
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: D:\Users\Ruben\source\repos\N5ChallengeDockerDemo\kompose.exe convert
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.network/backend: "true"
+        io.kompose.service: n5challengedockerdemo
+    spec:
+      containers:
+        - env:
+            - name: DB_HOST
+              value: n5challengedockerdemodb
+            - name: DB_NAME
+              value: N5demo
+            - name: DB_SA_PASSWORD
+              value: yourStrong(!)Password
+            - name: ELASTIC_INDEX
+              value: elasticsearch
+            - name: ELASTIC_URL
+              value: https://localhost:9200/
+          image: n5challengedockerdemo
+          name: n5challengedockerdemo
+          ports:
+            - containerPort: 8002
+          resources: {}
+      restartPolicy: Always
+status: {}
